@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+    <link rel="shortcut icon" href="IMG/SPM.png" type="image/x-icon">
+    <title>Shipments</title>
+</head>
+<body>
+    <!--Ir arriba-->
+    <div class="go-top">
+        <span class="fas fa-angle-up"></span>
+    </div>
+    <!--Navegacion de menu-->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo-box">
+                <h1>Shipments</h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="descarga.html">Descargar app</a></li>
+                    <li><a href="#" class="activo">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br><br><br><br><hr>
+        <div class="container">
+            <h1 class="text-left1" style="color: #8a0000;">Contacto</h1>
+            <div class="gil">
+                <div class="col-md-12">
+                    <form action="correo.php" method="POST">
+                        <ul class="contact-f">
+                            <li>
+                                <div class="col-md-6">
+                                    <input type="text" name="nombre" placeholder="Escribe tu nombre" required size="15">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" placeholder="Escribe tu email" required size="15">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-6">
+                                    <input type="text" name="telefono" placeholder="Escribe tu telefono" required size="15">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <input type="text" name="asunto" required placeholder="Asunto" size="15">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <textarea name="mensaje" class="span12" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <button type="submit">Enviar mensaje<span class="glyphicon glyphicon-arrow-rigth" aria-hidden="true"></span></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/35db202371.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="JAVA/java.js"></script>
+    </body>
+    </html>
